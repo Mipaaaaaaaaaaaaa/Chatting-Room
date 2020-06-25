@@ -7,9 +7,9 @@ public class Database {
 	ResultSet rs = null;
 	String errorMessage = "";
 	Boolean isError = null;
-	String url = "jdbc:mysql://149.129.74.185:3306/myproject?characterEncoding=utf8&useSSL=false&serverTimezone=UTC";
-	String name = "root";
-	String pwd = "72B6d08a86de";
+	String url = "mysqlurl";
+	String name = "yourname";
+	String pwd = "yourpwd";
 	public void JdbcConnection() {
 		try {
 			//加载驱动
